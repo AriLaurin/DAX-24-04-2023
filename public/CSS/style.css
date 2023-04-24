@@ -30,12 +30,23 @@ h2, h3, p, a, footer, label{
   }
   .top-body {
      grid-area: top-body;
+     text-align: center;
      }
-  .center-body { grid-area: center-body; }
-  .bottom-body { grid-area: bottom-body; }
+  .center-body {
+     grid-area: center-body;
+     text-align: center;
+     }
+  .bottom-body {
+     grid-area: bottom-body;
+     text-align: center;
+     }
 
   input{
     background-color: #2B303A;
     border-color: #D64933;
     color: #D64933;
+  }
+
+  footer{
+    text-align: center;
   }
