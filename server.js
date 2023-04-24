@@ -10,7 +10,7 @@ app.use(express.json()); //takes any json data from requests, and parses it into
 // view engine
 app.set('view engine', 'ejs');
 
-app.listen(8080)
+app.listen(80)
 console.log("LOCAL SERVER: CONNECTION ESTABLISHED");
 
 // routes
