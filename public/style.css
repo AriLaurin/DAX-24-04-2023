@@ -1,0 +1,15 @@
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "top-body top-body top-body"
+      "center-body center-body center-body"
+      "bottom-body bottom-body bottom-body"; 
+  }
+  .top-body { grid-area: top-body; }
+  .center-body { grid-area: center-body; }
+  .bottom-body { grid-area: bottom-body; }
