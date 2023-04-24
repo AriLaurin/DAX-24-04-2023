@@ -1,6 +1,7 @@
 module.exports.home_get = async (req,res) => {
 
-    console.log("GET REQUEST: ROOT PAGE");
+    res.render("home")
+    // console.log("GET REQUEST: ROOT PAGE");
 
 }
 
